@@ -42,7 +42,7 @@ class App extends Component {
             <OnlyGuestLinks />
             <OnlyAuthLinks />
           </ul>
-          <Link to="/" className="pure-menu-heading pure-menu-link">Star Stake</Link>
+          <Link to="/" className="pure-menu-heading pure-menu-link">UNIDAPP</Link>
         </nav>
 
         {this.props.children}

@@ -6,7 +6,7 @@ class Home extends Component {
       <main className="container">
         <div className="pure-g">
           <div className="pure-u-1-1">
-            <h1>Star Stake: React DApp Tutorial Series</h1>
+            <h1>UNIDAPP: The Lecture Sign up dAPP</h1>
             <p>Use this wallet to send tokens for chips to participate in Starstake.</p>
             <h2>Smart Contract Authentication</h2>
             <p>DApp bootstrap version comes with authentication via a smart contract built-in.</p>
