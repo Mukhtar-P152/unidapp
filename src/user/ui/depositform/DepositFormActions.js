@@ -10,7 +10,7 @@ function addressStored(tx) {
     }
 }
 
-export function stareAddress(num) {
+export function storeAddress(num) {
     let web3 = store.getState().web3.web3Instance;
     if (typeof web3 !== 'undefined') {
         return function dispatch() {

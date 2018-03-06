@@ -8,6 +8,7 @@ class Dashboard extends Component {
 
   render() {
     return(
+      
       <main className="container">
       
         <div className="pure-g">
@@ -37,6 +38,7 @@ class Dashboard extends Component {
           </div>
         </div>
       </main>
+      
     )
   }
 }
