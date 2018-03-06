@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 class Dashboard extends Component {
   constructor(props, { authData }) {
     super(props)
@@ -25,14 +26,17 @@ class Dashboard extends Component {
               <tr>
               <td>Forensics</td>
               <td>22 Weeks</td>
+              
               </tr>
               <tr>
               <td>Security</td>
               <td>22 Weeks</td>
+              
               </tr>
               <tr>
               <td>Programming </td>
               <td>22 Weeks</td>
+              
               </tr>
             </table>
           </div>

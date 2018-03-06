@@ -5,7 +5,7 @@ class DepositForm extends Component {
     super(props)
 
     this.state = {
-      num: this.props.num || 10
+      num: this.props.num || 1
     }
   }
   onInputChange(event) {
@@ -13,9 +13,6 @@ class DepositForm extends Component {
   }
   handleSubmit(event) {
     event.preventDefault();
-    if (this.state.num.length >1 && 1){
-      return alert('please only submit 1')
-    }
     this.props.onDepositFormSubmit(this.state.num)
   }
 
@@ -27,7 +24,7 @@ class DepositForm extends Component {
       <span className="pure-form-message">This is a required field.</span>
       <div>{this.props.num}</div>
       <br />
-      <button type="submit" className="pure-button pure-button-primary">Attend</button>
+      <button type="submit" className="pure-button pure-button-primary">Attend Lecture</button>
     </fieldset>
     </form>
 
