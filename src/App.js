@@ -17,10 +17,13 @@ class App extends Component {
     const OnlyAuthLinks = VisibleOnlyAuth(() =>
       <span>
         <li className="pure-menu-item">
-          <Link to="/dashboard" className="pure-menu-link">Dashboard</Link>
+          <Link to="/dashboard" className="pure-menu-link">Courses</Link>
         </li>
         <li className="pure-menu-item">
           <Link to="/profile" className="pure-menu-link">Profile</Link>
+        </li>
+        <li className="pure-menu-item">
+          <Link to="/attend" className="pure-menu-link">Attend</Link>
         </li>
         <LogoutButtonContainer />
       </span>

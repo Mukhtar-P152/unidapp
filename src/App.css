@@ -8,7 +8,9 @@ body,
 h1, h2, h3 {
   font-family: 'Oswald', 'Arial Narrow', sans-serif;
 }
-
+a {
+  color: #fff;
+}
 code {
   display: block;
   margin: 20px 0 15px 0;
@@ -20,6 +22,8 @@ code {
   box-sizing: border-box;
   width: 100%;
   padding: 45px 20px;
+  background: #233e5e;
+  color: #fff;
 }
 
 .pure-button-primary {
@@ -39,7 +43,7 @@ code {
 .navbar {
   position: fixed;
   padding: 5px;
-  background: #0c1a2b;
+  background: #11af8d;
   font-family: 'Oswald', 'Arial Narrow', sans-serif;
 }
 
