@@ -5,7 +5,7 @@ class DepositForm extends Component {
     super(props)
 
     this.state = {
-      num: this.props.num || 1
+      num: ''
     }
   }
   onInputChange(event) {
@@ -13,6 +13,12 @@ class DepositForm extends Component {
   }
   handleSubmit(event) {
     event.preventDefault();
+
+    if  (this.state.num > 1)
+    {
+      return alert('Please only deposit 1')
+    }
+
     this.props.onDepositFormSubmit(this.state.num)
   }
 

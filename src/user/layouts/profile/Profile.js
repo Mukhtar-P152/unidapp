@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ProfileFormContainer from '../../ui/profileform/ProfileFormContainer'
-import DepositFormContainer from '../../ui/depositform/DepositFormContainer'
+
 class Profile extends Component {
   render() {
     return(
