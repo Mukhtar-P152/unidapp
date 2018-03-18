@@ -34,11 +34,13 @@ class Dashboard extends Component {
               
               </tr>
               <tr>
-              <td>Programming </td>
+              <td>Coding </td>
               <td>22 Weeks</td>
               
               </tr>
             </table>
+            <h2>NEWS</h2>
+            <p>For more on news from our campus check out <a href="www.dmu.ac.uk">here.</a></p>
           </div>
         </div>
       </main>
